@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Http request - Noowow Community</title>
+  </head>
+  <body>
+    <h1>Noowow Community</h1>
+    <h2>Http request</h2>
+    <div style="display:flex;gap:10px;">
+      <div>
+        <h3>Data received</h3>
+        <textarea cols="70" rows="20" id="dataReceived"></textarea>
+      </div>
+      <div>
+        <h3>Data to send</h3>
+        <textarea cols="70" rows="20" id="dataSend"></textarea>
+      </div>
+    </div>
+    
+    <div style="display:flex;gap:50px;">
+      <div id="xmlHttpReq">
+        <h3>XMLHttpRequests CRUD</h3>
+        <div style="display:flex;flex-direction: column; gap:5px;">
+          <button data-type="get">GET all</button>
+          <button data-type="get-one">GET one</button>
+          <button data-type="post">POST</button>
+          <button data-type="put">PUT</button>
+          <button data-type="patch">PATCH</button>
+          <button data-type="delete">DELETE</button>
+        </div>
+      </div>
+      <div id="fetchReq">
+        <h3>Fetch CRUD</h3>
+        <div style="display:flex;flex-direction: column; gap:5px;">
+          <button data-type="get">GET all</button>
+          <button data-type="get-one">GET one</button>
+          <button data-type="post">POST</button>
+          <button data-type="put">PUT</button>
+          <button data-type="patch">PATCH</button>
+          <button data-type="delete">DELETE</button>
+        </div>
+      </div>
+      <div id="axiosReq">
+        <h3>Axios CRUD</h3>
+        <div style="display:flex;flex-direction: column; gap:5px;">
+          <button data-type="get">GET all</button>
+          <button data-type="get-one">GET one</button>
+          <button data-type="post">POST</button>
+          <button data-type="put">PUT</button>
+          <button data-type="patch">PATCH</button>
+          <button data-type="delete">DELETE</button>
+        </div>
+      </div>
+    <div>
+
+
+	  <script src="./bundle.js"></script>
+  </body>
+</html>
