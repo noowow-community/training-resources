@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Evens",
+      "lastname": "Stone",
+      "age": 100,
+      "gender": "male"
+    },
+    {
+      "id": 2,
+      "firstname": "Jane",
+      "lastname": "Stone",
+      "age": 20,
+      "gender": "female"
+    },
+    {
+      "id": 3,
+      "firstname": "Jonh",
+      "lastname": "Doe",
+      "age": 40,
+      "gender": "male"
+    }
+  ]
+}

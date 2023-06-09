@@ -1,0 +1,23 @@
+{
+  "name": "playground_avance_seance_6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mr Stone",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "start": "webpack serve --config ./webpack.config.js --mode development",
+    "start-api": "json-server ./api-mock/db.json --port 8033 --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "json-server": "^0.17.3",
+    "webpack": "^5.85.0",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {}
+}

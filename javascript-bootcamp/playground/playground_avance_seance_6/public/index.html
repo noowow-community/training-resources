@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Module and tools - Noowow Community</title>
+  </head>
+  <body>
+    <h1>Noowow Community</h1>
+    <h2>Module and tools</h2>
+    <div style="display:flex; gap:20px;">
+      <div>
+        <h3>User data form</h3>
+        <textarea cols="120" rows="10"></textarea>
+      </div>
+
+      <div>
+        <h3>User data list</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Age</th>
+              <th>Gender</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="6">no data to display...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div style="display:flex; gap:20px;">
+      <button data-action="create">Create</button>
+      <button data-action="list">List</button>
+      <button data-action="update">Update</button>
+    </div>
+
+    
+	  <script src="./bundle.js"></script>
+  </body>
+</html>
