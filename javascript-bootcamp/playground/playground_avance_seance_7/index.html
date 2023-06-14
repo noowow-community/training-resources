@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web component - Noowow Community</title>
+    <style>
+      p.custom-parag {
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        font: 2rem/2 sans-serif;
+        text-align: center;
+        background: purple;
+        color: white;
+      }
+      i {
+        color: red;
+        font-size: 40px;
+      }
+      h1 {
+        color: red!important;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Noowow Community</h1>
+    <div>
+      <h2>Web component</h2>
+      <p id="parag">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores doloremque facilis nemo explicabo dolore sapiente ab placeat, <br> illo aspernatur saepe distinctio necessitatibus sunt odit quia rerum vitae quaerat asperiores veritatis?</p>
+      <p id="parag2">Hello world</p>
+      <button id="testBtn">Click me</button>
+      <input type="text" value="Hello world">
+      <img src="https://site.com/my-image.png" alt="my image">
+      <textarea></textarea>
+      <a href="https://localhost">The link</a>
+      <p id="source">
+        <style>
+          .red,
+          #source {
+            color: red;
+          }
+          .upper,
+          #text {
+            text-transform: uppercase;
+          }
+        </style>
+        <span id="text">
+          Take a look at<br />
+          how this text<br />
+          is interpreted below.
+        </span>
+        <span id="text2">
+          Patate et pain
+        </span>
+        <span style="display:none">HIDDEN TEXT</span>
+      </p>
+      <div id="parent-1" data-type="parent-item">
+        Parent 1
+        <div id="parent-2" data-type="parent-item">
+          Parent 2
+          <div id="parent-3">
+            Parent 3
+            <div id="parent-4">
+              Parent 4
+              <div id="elem-1">
+                Element 1
+              </div>
+              <div id="elem-2">
+                Element 2
+              </div>
+              <div id="elem-3">
+                Element 3
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-type="parag">
+        <p data-type="parag-1">Paragraph 1</p>
+        <p data-type="parag-2">Paragraph 2</p>
+        <p data-type="parag-3">Paragraph 3</p>
+      </div>
+      <p class="custom-parag">
+        Hello world i'm the custom Paragraph
+        <span class="custom-parag-2">Custom parag 2</span>
+      </p>
+    </div>
+
+    <template id="tmpl">
+      <h2>My name is</h2>
+      <p>Mr Stone</p>
+      <i>And i'm haitian</i>
+      <script>console.log('Inserted via template')</script>
+    </template>
+
+    <template id="boxTmpl">
+      <style>
+        /* the style will be applied from inside to the custom-dialog element */
+        :host {
+          display: inline-block;
+          border: 1px solid red;
+          padding: 10px;
+        }
+      </style>
+      <slot></slot>
+    </template>
+
+    <custom-dialog>
+      Hello Stone!
+    </custom-dialog>
+
+    <div>
+      <user-card></user-card>
+    </div>
+
+    <input type="range">
+
+	  <script src="./playground_avance_seance_7.js"></script>
+  </body>
+</html>

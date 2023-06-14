@@ -11,3 +11,4 @@
 - [JS avancé version 4](https://shared-assets.adobe.com/link/2d7ba2b3-27c3-47a1-67b8-ad1ea06d47b9)
 - [JS avancé version 5](https://shared-assets.adobe.com/link/68e43246-aeee-403c-598e-72ca531f04b7)
 - [JS avancé version 6](https://shared-assets.adobe.com/link/b19746b9-8157-4f07-6b7f-ab6929d2f09f)
+- [JS avancé version 7](https://shared-assets.adobe.com/link/80b8e590-f648-4507-5ccc-f6d3df970585)
