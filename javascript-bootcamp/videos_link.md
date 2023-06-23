@@ -1,5 +1,6 @@
 # Liens vers les vidéos
 
+## Javascript
 - [Intro à Javascript]()
 - [Structure conditionnelle](https://shared-assets.adobe.com/link/9e3d1665-8b31-47c1-5317-e4c875e1417d)
 - [Structure iterative](https://shared-assets.adobe.com/link/b4cb6c18-6a45-4121-770e-9c1003c3760f)
@@ -14,3 +15,6 @@
 - [JS avancé version 7](https://shared-assets.adobe.com/link/80b8e590-f648-4507-5ccc-f6d3df970585)
 - [JS avancé séance analyse 1](https://shared-assets.adobe.com/link/758f4827-f51e-43c0-47b5-f694c1f01873)
 - [JS avancé séance analyse 2](https://shared-assets.adobe.com/link/ad40b5e9-ffc4-478f-5971-ca6cf38aec8c)
+
+## Git
+- [Git intro](https://shared-assets.adobe.com/link/ad40b5e9-ffc4-478f-5971-ca6cf38aec8c)
