@@ -17,4 +17,4 @@
 - [JS avancé séance analyse 2](https://shared-assets.adobe.com/link/ad40b5e9-ffc4-478f-5971-ca6cf38aec8c)
 
 ## Git
-- [Git intro](https://shared-assets.adobe.com/link/ad40b5e9-ffc4-478f-5971-ca6cf38aec8c)
+- [Git intro](https://shared-assets.adobe.com/link/911d89b7-1b0c-44d3-4613-c5ac8c5f26cc)
