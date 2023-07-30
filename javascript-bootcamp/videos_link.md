@@ -15,6 +15,8 @@
 - [JS avancé version 7](https://shared-assets.adobe.com/link/80b8e590-f648-4507-5ccc-f6d3df970585)
 - [JS avancé séance analyse 1](https://shared-assets.adobe.com/link/758f4827-f51e-43c0-47b5-f694c1f01873)
 - [JS avancé séance analyse 2](https://shared-assets.adobe.com/link/ad40b5e9-ffc4-478f-5971-ca6cf38aec8c)
+- [JS implementation facebook api base project](https://shared-assets.adobe.com/link/bb0c613c-1cce-4f56-626a-9fac399f20dd)
+- [JS implementation facebook api base project 2](https://shared-assets.adobe.com/link/827a3d4a-997c-4f79-7f3e-6a93e0d4f814)
 
 ## Git
 - [Git intro](https://shared-assets.adobe.com/link/911d89b7-1b0c-44d3-4613-c5ac8c5f26cc)
