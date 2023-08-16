@@ -21,6 +21,7 @@
 - [JS implementation facebook api base project 4](https://shared-assets.adobe.com/link/3d349ab8-2692-45b3-60fd-79d5686f5fe5)
 - [JS implementation facebook api base project 5](https://shared-assets.adobe.com/link/17940dad-a36a-4069-5195-d0bf259fdb87)
 - [JS implementation facebook api base project 6](https://shared-assets.adobe.com/link/ae975151-2ec2-41a7-4498-ea0a933316bd)
+- [JS implementation facebook api base project 7](https://shared-assets.adobe.com/link/1f5d579d-9615-45fe-5836-a6df11e3e0c8)
 
 ## Git
 - [Git intro](https://shared-assets.adobe.com/link/911d89b7-1b0c-44d3-4613-c5ac8c5f26cc)
